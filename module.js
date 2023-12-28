@@ -12,9 +12,6 @@ const firebaseConfig = {
     appId: "1:737147849360:web:94e5a446393bbdfb8ae615",
     measurementId: "G-9YR3MYPJEB"
 };
-/*firebase.initializeApp({
-  databaseURL: "https://membership-system-4f4f8.firebaseio.com/"
-});*/
-  
+
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
